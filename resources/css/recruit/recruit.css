@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Roboto:wght@400;700&display=swap");
+:root {
+  --mieet-color: #B5DECC;
+}
+
+* {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.noto-sans {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+#stories .swiper-slide {
+  width: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#stories .swiper-slide img {
+  width: 58px;
+  height: 58px;
+  border: solid var(--mieet-color) 3px;
+}
+#stories .swiper-slide img.viewed {
+  border-color: lightgrey;
+}
+#stories .swiper-slide:first-child {
+  margin-left: 10px;
+}
+#stories .company-name {
+  font-size: 0.5rem;
+  width: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/*# sourceMappingURL=recruit.css.map */

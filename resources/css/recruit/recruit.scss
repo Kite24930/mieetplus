@@ -1,0 +1,31 @@
+@import "common";
+
+#stories {
+    .swiper-slide {
+        width: 66px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        img {
+            width: 58px;
+            height: 58px;
+            border: solid var(--mieet-color) 3px;
+            &.viewed {
+                border-color: lightgrey;
+            }
+        }
+        &:first-child {
+            margin-left: 10px;
+        }
+    }
+
+    .company-name {
+        font-size: 0.5rem;
+        width: 60px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
+
